@@ -1,0 +1,18 @@
+body{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+}
+
+#battleButton{
+    background-color: #0000;
+    &:hover{
+        background-color: black;
+        color: #ffff;
+    }
+}
+
+#battleResult{
+    font-size: 1.5rem;
+}
